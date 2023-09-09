@@ -1,12 +1,11 @@
 
-# Reasons to obtain internal VLAN IP address from switch 
+Reasons to obtain internal VLAN IP address from switch 
 
-/* External Watchguard box is being used as the Layer 3 administrator 
-and there are seprate VLAN's from which you want to isolate the unifi switches from */
+External Watchguard box is being used as the Layer 3 administrator 
+and there are seprate VLAN's from which you want to isolate the unifi switches from 
 
-/*
+
 Connect to switch via ethernet, Check other file on how to connect to switch (Layer 2 & 3)
-*/
 
 // Example of how this would look once connected via CMD 
 
@@ -43,5 +42,8 @@ USW-Pro-24-US.6.4.18#
 
 */
 
-// Once at this stage you will need to run the following commands to obtain the internal IP address
+Once at this stage you will need to run the following commands to obtain the internal IP address
+
+1. 
+2.
 
