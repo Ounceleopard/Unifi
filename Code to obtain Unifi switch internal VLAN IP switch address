@@ -1,1 +1,46 @@
 
+# Reasons to obtain internal VLAN IP address from switch 
+
+/* External Watchguard box is being used as the Layer 3 administrator and there are seprate VLAN's from which you want to isolate the unifi switches from */
+
+/*
+Connect to switch via ethernet, Check other file on how to connect to switch (Layer 2 & 3)
+*/
+
+// Example of how this would look once connected via CMD 
+
+
+/* 
+Device USW-Pro-24: Connected
+
+
+BusyBox v1.23.2 (2022-12-13 13:26:37 UTC) built-in shell (ash)
+
+
+  ___ ___      .__________.__
+ |   |   |____ |__\_  ____/__|
+ |   |   /    \|  ||  __) |  |   (c) 2010-2022
+ |   |  |   |  \  ||  \   |  |   Ubiquiti Inc.
+ |______|___|  /__||__/   |__|
+            |_/                  https://www.ui.com
+
+      Welcome to UniFi USW-Pro-24!
+
+********************************* NOTICE **********************************
+* By logging in to, accessing, or using any Ubiquiti product, you are     *
+* signifying that you have read our Terms of Service (ToS) and End User   *
+* License Agreement (EULA), understand their terms, and agree to be       *
+* fully bound to them. The use of SSH (Secure Shell) can potentially      *
+* harm Ubiquiti devices and result in lost access to them and their data. *
+* By proceeding, you acknowledge that the use of SSH to modify device(s)  *
+* outside of their normal operational scope, or in any manner             *
+* inconsistent with the ToS or EULA, will permanently and irrevocably     *
+* void any applicable warranty.                                           *
+***************************************************************************
+
+USW-Pro-24-US.6.4.18# 
+
+*/
+
+// Once at this stage you will need to run the following commands to obtain the internal IP address
+
