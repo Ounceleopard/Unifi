@@ -1,7 +1,8 @@
 
 # Reasons to obtain internal VLAN IP address from switch 
 
-/* External Watchguard box is being used as the Layer 3 administrator and there are seprate VLAN's from which you want to isolate the unifi switches from */
+/* External Watchguard box is being used as the Layer 3 administrator 
+and there are seprate VLAN's from which you want to isolate the unifi switches from */
 
 /*
 Connect to switch via ethernet, Check other file on how to connect to switch (Layer 2 & 3)
