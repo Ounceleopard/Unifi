@@ -1,0 +1,22 @@
+
+
+example 
+LAn 192.168.1.30 
+
+my pc 
+192.168.1.11
+255.255.255.0
+none 
+
+
+none
+
+none
+
+
+in brower do 192.168.1.30 
+
+
+default after update 
+
+192.168.1.1 
