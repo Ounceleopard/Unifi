@@ -45,14 +45,14 @@ USW-Pro-24-US.6.4.18#
 Once at this stage you will need to run the following commands to obtain the internal IP address
 
 1. telnet 127.0.0.1
-2. Enter character mode 
-3. (UBNT) >enable 
-4. #show run 
+Enter character mode 
+2. (UBNT) >enable 
+3. #show run 
 
-5. exit 
+4. exit 
 
-6. spanning-tree mode rstp
-7. snmp-server sysname "USW-Pro-24"
+5. spanning-tree mode rstp
+6. snmp-server sysname "USW-Pro-24"
 
 // Look for IP address for your unifi switch "interface vlan"
 // format 10.255.253.x (Personal experience values: 1-11) 
